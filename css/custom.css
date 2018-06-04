@@ -1,0 +1,279 @@
+.demo-block{
+  text-align: center;
+}
+.region-content {
+    min-height: 300px;
+    padding-bottom: 25px;
+  }
+
+.main-container{
+  padding-top: 40px;
+}
+
+
+
+
+.more-link a{
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 50px;
+  padding: 6px 40px;
+  border: 1px solid #009fff;
+  border-radius: 20px;
+  -webkit-transition: all 0.5s;
+   -moz-transition: all 0.5s;
+   -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.more-link a:hover{
+  background: #009fff;
+  color: #FFF;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+   -moz-transition: all 0.5s;
+   -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+
+/* facets */
+section#block-ircc-bs-facultyname1{
+
+  margin-bottom: 30px;
+}
+  section.block-facets {
+    border: 1px solid #4fcec8;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  }
+
+  section.block-facets .block-title {
+    padding-left: 13px;
+    border-bottom: 3px #e58c08 solid;
+  }
+
+ section.block-facets a.facets-soft-limit-link{
+    text-align: center; 
+    background: #b87338;
+    color: #FFF;
+    padding: 5px 25px;
+    margin-left: 60px;
+    border-radius: 10px;
+}
+
+
+
+
+.facets-widget-checkbox ul{
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.facets-widget-checkbox .facet-item label {
+  padding-left: 5px;
+  display: inline;
+}
+
+
+.block-facet--checkbox{
+  padding-bottom: 5px;
+  line-height: 15px;
+}
+
+.facet-item__value{
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+.facet-item__count{
+  font-size: 13px;
+}
+
+.filter-type input[type="checkbox"] {
+    width: 13px;
+    height: 13px;
+  }
+
+
+
+
+/* facets */
+
+
+/*node page*/
+.title-bottom-border{
+border-bottom: 1px solid #c4c3cc;
+}
+
+@media screen and (max-width: 700px ){
+h2.page-title{
+  font-size: 1.5rem;
+  }
+.main-container {
+  padding-top: 90px;
+}
+}
+/*nodepage end*/
+
+
+/* search page */
+
+.search-row{
+  padding-bottom: 5px;
+  font-size: 1.8rem;
+}
+
+.search-item{
+  margin-left: 30px;
+}
+
+/* search page */
+
+
+/* search box */
+
+@media (max-width: 767px) {
+  #edit-submit-solr-search-content{
+    display:inline;
+  }
+
+}
+ 
+.navbar-search {
+  position: absolute;
+  right: 0;
+  width: 45em;
+}
+
+@media (max-width: 767px) {
+ .navbar-search{
+  position: relative;
+  right: 0;
+  width: 100%;
+  margin-left: 0;
+ }
+}
+
+
+.navbar-search .search-icons {
+  position: relative;
+  right: 30px;
+}
+
+@media(max-width:767px){
+  .navbar-search .search-icons{
+    display: none;
+  }
+}
+
+@media(max-width:767px){
+  .navbar-search .form-inline{
+    display: inline-flex;
+  }
+}
+
+.navbar-search .search-icons a {
+  position: absolute;
+  right: 0;
+}
+
+.navbar-search .search-icons .close-form {
+  display: none;
+}
+
+.navbar-search .search-icons a i {
+  cursor: pointer;
+  float: right;
+  width: 36px;
+  height: 36px;
+  line-height: 37px;
+  margin-left: 20px;
+  background: #f5f6f8;
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 17px;
+  margin-bottom: 23px;
+}
+
+.navbar-search .search-block-form {
+  position: relative;
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .navbar-search .search-block-form {
+    display: block;
+  }
+}
+
+.navbar-search form {
+  position: absolute;
+  right: 50px;
+  top: 13px;
+  width: 30rem;
+  z-index: 3;
+}
+
+
+@media screen and (max-width: 767px){
+  .navbar-search form{
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-search form {
+    width: 100%;
+  }
+}
+.navbar-search .form-item {
+  margin-top: .5em;
+}
+
+
+@media (max-width: 767px){
+  .navbar-search .form-item {
+    margin-top: 0;
+  }
+}
+.navbar-search .form-control {
+  color: #4f4c4c;
+  border-radius: 0;
+}
+
+
+@media (min-width: 767px) {
+  .navbar-search .form-actions {
+    display: none;
+  }
+}
+
+.input-group-addon{
+  display: none;
+}
+
+a.open-form{
+  font-size: 20px;
+}
+a.close-form{
+  font-size: 20px;
+}
+/* search-box */
+
+
+
+/* top head region */
+
+.top_head{
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+/* top head region */
