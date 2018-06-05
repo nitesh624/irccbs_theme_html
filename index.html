@@ -95,7 +95,7 @@
 
                <div class="col-lg-3 col-md-3 col-sm-6 top-wrapper">
                   	<div class="top_box_bg">
-                  		<h2 class="top-box-title capitalize text-center">Industry</h2>
+                  		<h2 class="top-box-title capitalize text-center">Academia</h2>
 					    <div class="box-container">
 					     <img src="img/industry.jpg" width="1927" height="1123" alt="industry" title="Partner with us" typeof="foaf:Image" class="img-responsive">
 					      
@@ -106,7 +106,7 @@
 					       <a href="#">Area of Expertise</a>
 					      </div>
 					      <div class="box-summary">
-					        Parnter with us
+					        Collaborate with us
 					      </div>
 					    </div>
               		</div>
@@ -114,7 +114,7 @@
 
                <div class="col-lg-3 col-md-3 col-sm-6 top-wrapper">
                   	<div class="top_box_bg">
-                  			<h2 class="top-box-title capitalize text-center">Industry</h2>
+                  			<h2 class="top-box-title capitalize text-center">Professionals</h2>
 					    <div class="box-container">
 					     <img src="img/industry.jpg" width="1927" height="1123" alt="industry" title="Partner with us" typeof="foaf:Image" class="img-responsive">
 					      
@@ -125,7 +125,7 @@
 					       <a href="#">Area of Expertise</a>
 					      </div>
 					      <div class="box-summary">
-					        Parnter with us
+					        Work with us
 					      </div>
 					    </div>
               		</div>
@@ -133,7 +133,7 @@
 
                <div class="col-lg-3 col-md-3 col-sm-6 top-wrapper">
                   	  	<div class="top_box_bg">
-                  			<h2 class="top-box-title capitalize text-center">Industry</h2>
+                  			<h2 class="top-box-title capitalize text-center">Media</h2>
 					    <div class="box-container">
 					     <img src="img/industry.jpg" width="1927" height="1123" alt="industry" title="Partner with us" typeof="foaf:Image" class="img-responsive">
 					      
@@ -144,7 +144,7 @@
 					       <a href="#">Area of Expertise</a>
 					      </div>
 					      <div class="box-summary">
-					        Parnter with us
+					        Know about us
 					      </div>
 					    </div>
               		</div>
@@ -160,17 +160,17 @@
               <div class="container-fluid">
               <div class="row">
                 <div class="col-lg-9 col-md-9 col-sm-6 col-xs-12">
-                    {{ page.news }}
+                    <div id="news-title">News</div>
+
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                   
-                    {{ page.events }}
+                    <div id="events-title">Events</div>
                   
                 </div>
               </div>
               </div>
           </section>
-        {% endif %}
           <!-- news end -->
 
           <!-- Research Begin-->
@@ -178,8 +178,7 @@
               <div class="container-fluid">
               <div class="row">
                 <div class="col-md-12">
-                  
-                    {{ page.research_highlights }}
+                 <div id="research-title">Research Highlights</div>
           
                 </div>
               </div>
@@ -195,29 +194,75 @@
          
             <div class="col-lg-3 col-md-3">
               <div class="footer-site-info footer-widget">
-                {{ page.footer1 }}
+                <h2 class="title-widget">Address</h2>
+                <p>2nd Floor, IRCC - SOM Building Indian Institute of Technology Bombay<br>
+                  Powai, Mumbai 400 076<br>
+                  Phone :91-22-2576 7030/7039<br>
+                  Fax :91-22-2572 3702<br>
+                  Email :dean.rnd@iitb.ac.in
+                </p>
+                <iframe width="200" height="120" frameborder="0" style="border:0" src="https://maps.google.com/maps?hl=en&amp;q=IRCC+IIT+Bombay&amp;t=m&amp;z=10&amp;output=embed"></iframe>
               </div>
             </div>
             
             <div class="col-lg-3 col-md-3">  
               <div class="footer-site-info footer-widget">
-                {{ page.footer1 }}
+                <nav role="navigation" aria-labelledby="block-ircc-bs-consultancyprojects-menu">
+                  <h2 class="title-widget">Consultancy Projects</h2>
+                  <ul class="menu menu--consultancy-projects nav widget_nav_menu">
+                    <li><a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/rnd/ConsultancyTypes.jsp"><i class="fa fa-angle-double-right"></i>Types of projects </a>
+                    </li>
+                    <li>
+                      <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/rnd/LifeCycleProject.jsp"><i class="fa fa-angle-double-right"></i>Typical project life cycle </a>
+                    </li>
+                    <li>
+                    <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/rnd/Procedure.jsp"><i class="fa fa-angle-double-right"></i>Initiating a Project </a>
+                    </li>
+                    <li>
+                      <a href="https://www.ircc.iitb.ac.in/IRCC-Webpage/rnd/STC.jsp"><i class="fa fa-angle-double-right"></i>STANDARD TERMS AND CONDITIONS </a>
+                    </li>
+                    <li>
+                      <a href=""><i class="fa fa-angle-double-right"></i>Bank Details for the remittance of funds to IIT Bombay </a>
+                    </li>
+                  </ul>
+                </nav>
               </div>
             </div>
 
             <div class="col-lg-3 col-md-3">
               <div class="footer-site-info footer-widget">
-                {{ page.footer1 }}
+                <h2 class="title-widget">Content Updation</h2>
+                  <nav role="navigation">  
+                    <ul class="menu menu--content-updation nav widget_nav_menu">
+                      <li>
+                        <a href="/research_glimpses_all"><i class="fa fa-angle-double-right"></i>Rearch Glimpses </a>
+                      </li>
+                        <li>
+                         <a href="/resesrch_facility_all"><i class="fa fa-angle-double-right"></i>Rearch Facilities </a>
+                        </li>
+                        <li>
+                         <a href="/technology_all"><i class="fa fa-angle-double-right"></i>Technology </a>
+                        </li>
+                     </ul>
+                  </nav>
               </div>
             </div>
 
 
             <div class="col-lg-3 col-md-3">  
               <div class="footer-site-info footer-widget">
-                {{ page.footer1 }}
+                <h2 class="title-widget">Main navigation</h2>
+                  <nav role="navigation">
+                    <ul class="menu menu--content-updation nav widget_nav_menu">
+                      <li ><a href="/">Home</a></li>
+                      <li ><a href="/basic-page/faculty-profiles" data-drupal-link-system-path="node/22622">Faculty Profiles</a></li>
+                      <li ><a href="/basic-page/research-facility" data-drupal-link-system-path="node/7970">Research Facility</a></li>
+                      <li ><a href="/basic-page/research-glimpses" data-drupal-link-system-path="node/7971">Research Glimpses</a></li>
+                      <li ><a href="/basic-page/technology" data-drupal-link-system-path="node/7972">Technology</a></li>
+                    </ul>
+                  </nav>
+               </div>
               </div>
-            </div>
-
         </div>
       </div>
   </footer>
@@ -227,13 +272,26 @@
           <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                     <div class="copyright">
-                      {{ page.footer_bar_left }}
-                    </div>
+                     <div><p>© 2017. All rights reserved</p></div>
+                     <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>
+                   </div>
                 </div>
            
                 <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8">
                   <div class="design">
-                    {{ page.footer_bar_right }}
+                   <nav role="navigation">
+                      <ul class="menu menu--footer nav">
+                        <li>
+                          <a href="/solr-search/facilities" data-drupal-link-system-path="solr-search/facilities">Search For Research Facilities</a>
+                        </li>
+                        <li>
+                          <a href="/solr-search/technologies" data-drupal-link-system-path="solr-search/technologies">Search For Technologies</a>
+                        </li>
+                        <li>
+                          <a href="/solr-search/area-of-expertise" data-drupal-link-system-path="solr-search/area-of-expertise">Search for Area Of Expertise</a>
+                        </li>
+                      </ul>
+                    </nav>
                   </div>
                 </div>
           </div>

@@ -740,7 +740,9 @@ left: 100%;
   }
 }
 
-
+h2.top-box-title{
+  font-weight: bold;
+}
   .top-wrapper{
     padding-left: 4px!important;
     padding-right: 4px!important;
@@ -748,6 +750,7 @@ left: 100%;
   .top_box_bg{
     background-color: lightgray;
     border-radius: 8px;
+    padding: 5px;
   }
   .box-container{
     position: relative;
