@@ -529,12 +529,12 @@ left: 100%;
   }
   @media screen and (max-width: 900px){
     .navbar-brand{
-      font-size: 18px;
-      padding: 0;
-      font-weight: normal;
-      margin-left: 58px;
-      float:none;
-      text-align: left;
+      font-size: 18px!important;
+      padding: 0!important;
+      font-weight: normal!important;
+      margin-left: 58px!important;
+      float:none!important;
+      text-align: left!important;
     }
   }
    
@@ -619,7 +619,7 @@ left: 100%;
 
   #news-title{
     width: 100%;
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: 'Sanchez', serif;
     border-bottom: 2px solid;
     color: rgba(1,87,155 ,1);
@@ -629,12 +629,18 @@ left: 100%;
 
   #events-title{
     font-family: 'Sanchez', serif;
-    font-size: 2rem;
+    font-size: 3rem;
     color: #080808;
     text-align: justify;
     padding-bottom: 10px;
     text-shadow: 1px 2px 6px grey;
 }
+
+ @media screen and (max-width:768px){
+    # #news-title, #events-title{   
+      font-size: 2rem;
+    }
+  }
 
 .event-block-wrap{
 	height: 8rem;
