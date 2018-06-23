@@ -772,11 +772,12 @@ h2.top-box-title{
 
 .section-header {
     position: relative;
+    margin-bottom: 30px;
+
   }
 
 #events-wrap{
   background: #062d3e;
-  padding-top: 40px;
 }
 
   .events-head{
@@ -851,7 +852,6 @@ h2.top-box-title{
   }
 
 #news-wrap{
-  padding-top: 40px;
   padding-bottom: 40px;
 }
 
